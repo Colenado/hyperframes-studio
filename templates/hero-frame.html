@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scene N — Scene Title</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #000;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .scene {
+    width: 100%;
+    height: 100%;
+    padding: 60px 120px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+  }
+
+  /* ── Status Bar (top) ── */
+  .status-bar {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .status-bar .label {
+    font-family: 'Space Grotesk', monospace;
+    font-size: 11px;
+    color: #525252;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .status-bar .counter {
+    font-family: 'Space Grotesk', monospace;
+    font-size: 11px;
+    color: #525252;
+  }
+  .status-bar .counter span { color: #f5b50a; }
+
+  /* ── Scene Label ── */
+  .tag {
+    font-family: 'Space Grotesk', monospace;
+    font-size: 12px;
+    color: #525252;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 24px;
+  }
+
+  /* ── Heading ── */
+  h1 {
+    font-size: 52px;
+    font-weight: 600;
+    color: #d4d4d4;
+    line-height: 1.2;
+    margin-bottom: 32px;
+    max-width: 80%;
+  }
+  h1 em { color: #f5b50a; font-style: italic; font-weight: 300; }
+
+  /* ── Body Copy ── */
+  p {
+    font-size: 22px;
+    color: #a3a3a3;
+    line-height: 1.6;
+    max-width: 75%;
+    margin-bottom: 40px;
+  }
+
+  /* ── Main Content Area ── */
+  .content {
+    flex: 1;
+    /* Add scene-specific content here */
+  }
+
+  /* ── Element palette (uncomment and use as needed) ── */
+  /*
+  .code-block { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.12); padding: 28px 32px; font-family: 'Space Grotesk', monospace; font-size: 15px; line-height: 1.9; max-width: 70%; }
+  .code-block .tag-name { color: #f5b50a; }
+  .code-block .content { color: #d4d4d4; }
+  .code-block .dim { color: #525252; }
+
+  .card-row { display: flex; gap: 20px; }
+  .card { flex: 1; border: 1px solid rgba(255,255,255,0.12); padding: 24px; background: rgba(255,255,255,0.02); display: flex; flex-direction: column; justify-content: center; align-items: center; }
+  .card .label { font-family: 'Space Grotesk', monospace; font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+  .card .content { font-size: 14px; color: #a3a3a3; text-align: center; }
+
+  .badge { font-family: 'Space Grotesk', monospace; font-size: 10px; display: inline-block; padding: 2px 8px; margin-right: 6px; text-transform: uppercase; letter-spacing: 0.08em; }
+  .badge-error { border: 1px solid rgba(239, 68, 68, 0.3); color: #ef4444; }
+  .badge-warn { border: 1px solid rgba(245, 181, 10, 0.3); color: #f5b50a; }
+  .badge-ok { border: 1px solid rgba(74, 222, 128, 0.3); color: #4ade80; }
+  */
+
+  /* ── Brand Footer ── */
+  .brand {
+    position: absolute;
+    bottom: 48px;
+    left: 120px;
+    font-family: 'Space Grotesk', monospace;
+    font-size: 10px;
+    color: #525252;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+<div class="scene">
+  <div class="status-bar">
+    <div class="label">Project Name</div>
+    <div class="counter"><span>NN</span> / MM</div>
+  </div>
+
+  <div class="tag">// Scene Label</div>
+
+  <h1>Headline goes here.</h1>
+
+  <p>Subtitle or supporting copy. Keep it concise — the narrator covers the detail.</p>
+
+  <div class="content">
+    <!-- Scene-specific content: cards, code blocks, split layouts, etc. -->
+  </div>
+
+  <div class="brand">Project Name</div>
+
+  <!-- HERO FRAME: Scene N — "Scene Title"
+       Elements: status bar, tag, heading, subtitle, [content elements]
+       Animation intent: [describe entrance animations]
+       Key moment: full frame at ~Xs -->
+</div>
+</body>
+</html>

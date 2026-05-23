@@ -125,7 +125,7 @@ No SCRIPT.md, no TTS, no captions. Timing from content density (~5-6s sparse, ~8
 |-----------|---------------|
 | `skill_view("hyperframes-studio", "references/design-identity.md")` | Brand asset protocol (5-10-2-8), position questions, motion character framework, DESIGN.md template |
 | `skill_view("hyperframes-studio", "references/composition.md")` | HyperFrames data attributes, timeline contract, non-negotiable rules, clip schema |
-| `skill_view("hyperframes-studio", "references/gsap.md")` | GSAP API for HyperFrames: tweens, eases, stagger, timelines, transforms |
+| `skill_view("hyperframes-studio", "references/composition.md")` | GSAP API for HyperFrames: tweens, eases, stagger, timelines, transforms (bundled in this file) |
 | `skill_view("hyperframes-studio", "references/transitions.md")` | Transition selection by energy level, implementation patterns (CSS overlay, push, zoom, flash), rules |
 | `skill_view("hyperframes-studio", "references/audio.md")` | TTS, captions, music-only workflow, audio placeholder |
 | `skill_view("hyperframes-studio", "references/animation-pitfalls.md")` | Animation-specific anti-patterns and fixes |
